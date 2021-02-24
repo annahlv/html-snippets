@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'PlayfairDisplayItalic';
+    src: url('fonts/PlayfairDisplayItalic.eot');
+    src: url('fonts/PlayfairDisplayItalic.eot') format('embedded-opentype'),
+         url('fonts/PlayfairDisplayItalic.woff2') format('woff2'),
+         url('fonts/PlayfairDisplayItalic.woff') format('woff'),
+         url('fonts/PlayfairDisplayItalic.ttf') format('truetype'),
+         url('fonts/PlayfairDisplayItalic.svg#PlayfairDisplayItalic') format('svg');
+}

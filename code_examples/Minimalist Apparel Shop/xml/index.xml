@@ -1,0 +1,14 @@
+﻿<?xml version ="1.0" encoding="utf-8"?>
+<!--FileName: index.xml-->
+<?xml-stylesheet type="text/css" href="../xml/style.css"?>
+
+<bg><info>
+    <surname>Головань</surname>
+    <name>Анна</name>
+    <middle-name>Юрьевна,</middle-name>
+    <univercity>БГТУ,</univercity>
+    <faculty>ФИТ</faculty>
+    <specialization>ДЭиВИ</specialization>
+    <group>10,</group>
+    <course>2-й курс</course>
+    </info></bg>

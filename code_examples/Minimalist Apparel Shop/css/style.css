@@ -1,0 +1,414 @@
+@font-face {
+    font-family: 'BebasNeueBook';
+    src: url('fonts/BebasNeueBook.eot');
+    src: url('fonts/BebasNeueBook.eot') format('embedded-opentype'),
+         url('fonts/BebasNeueBook.woff2') format('woff2'),
+         url('fonts/BebasNeueBook.woff') format('woff'),
+         url('fonts/BebasNeueBook.ttf') format('truetype'),
+         url('fonts/BebasNeueBook.svg#BebasNeueBook') format('svg');
+}
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeueRegular.eot');
+    src: url('fonts/BebasNeueRegular.eot') format('embedded-opentype'),
+         url('fonts/BebasNeueRegular.woff2') format('woff2'),
+         url('fonts/BebasNeueRegular.woff') format('woff'),
+         url('fonts/BebasNeueRegular.ttf') format('truetype'),
+         url('fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+}
+@font-face {
+    font-family: 'PlayfairDisplayBlack';
+    src: url('fonts/PlayfairDisplayBlack.eot');
+    src: url('fonts/PlayfairDisplayBlack.eot') format('embedded-opentype'),
+         url('fonts/PlayfairDisplayBlack.woff2') format('woff2'),
+         url('fonts/PlayfairDisplayBlack.woff') format('woff'),
+         url('fonts/PlayfairDisplayBlack.ttf') format('truetype'),
+         url('fonts/PlayfairDisplayBlack.svg#PlayfairDisplayBlack') format('svg');
+}
+@font-face {
+    font-family: 'PlayfairDisplayItalic';
+    src: url('fonts/PlayfairDisplayItalic.eot');
+    src: url('fonts/PlayfairDisplayItalic.eot') format('embedded-opentype'),
+         url('fonts/PlayfairDisplayItalic.woff2') format('woff2'),
+         url('fonts/PlayfairDisplayItalic.woff') format('woff'),
+         url('fonts/PlayfairDisplayItalic.ttf') format('truetype'),
+         url('fonts/PlayfairDisplayItalic.svg#PlayfairDisplayItalic') format('svg');
+}
+@font-face {
+    font-family: 'PlayfairDisplayRegular';
+    src: url('fonts/PlayfairDisplayRegular.eot');
+    src: url('fonts/PlayfairDisplayRegular.eot') format('embedded-opentype'),
+         url('fonts/PlayfairDisplayRegular.woff2') format('woff2'),
+         url('fonts/PlayfairDisplayRegular.woff') format('woff'),
+         url('fonts/PlayfairDisplayRegular.ttf') format('truetype'),
+         url('fonts/PlayfairDisplayRegular.svg#PlayfairDisplayRegular') format('svg');
+}
+@font-face {
+    font-family: 'RalewayLight';
+    src: url('fonts/RalewayLight.eot');
+    src: url('fonts/RalewayLight.eot') format('embedded-opentype'),
+         url('fonts/RalewayLight.woff2') format('woff2'),
+         url('fonts/RalewayLight.woff') format('woff'),
+         url('fonts/RalewayLight.ttf') format('truetype'),
+         url('fonts/RalewayLight.svg#RalewayLight') format('svg');
+}
+
+header {
+    width:100%; height:755px; padding: 0px;
+    position: relative;
+    background: url(../img/hello.png) fixed no-repeat; 
+    background-size: cover;
+}
+header .motto img{
+    position: absolute;
+    top: 320px;
+    left: 480px;    
+    width: 40%;
+}
+.logo img{
+    position: absolute;
+    top: 50px;
+    left: 38%;
+    width: 20%;
+}
+ul.list-inline a {
+    display: inline-block;
+}
+.top-menu ul {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    word-spacing: 30px;  
+}
+a li:hover {
+    transition: all 0.2s 0.02s ease;
+    -moz-transition: all 0.2s 0.02s ease;
+    -o-transition: all 0.2s 0.02s ease;
+    -webkit-transition: all 0.2s 0.02s ease;
+    color: #63BAEB;
+    padding-bottom: 5px;
+    border-bottom: solid 3px #63BAEB;
+    text-decoration: none;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+.footer-menu ul {
+    margin: 0;
+    list-style-type: none;
+}
+.footer-menu ul a {
+    display: inline-block;
+    padding: 4px 0px;   
+}
+.footer-menu ul li:nth-child(1) {
+    width: 73px;
+    height: 18px;
+    
+    font-family: BebasNeueRegular;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    margin-bottom: 23px;
+}
+footer {
+    background-color: #E5E5E5;
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    padding-top: 68px;
+    font-family: RalewayLight;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 14px;
+}
+footer p.subs {
+    position: middle;
+    font-family: PlayfairDisplayRegular;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 36px;
+    color: #000000;
+}
+footer button {
+    font-family: BebasNeueRegular;
+    color: #fff;
+    position: middle;
+    width: 184px;
+    height: 50px;
+    background: #63BAEB;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    border-width: 0 0 0 0;
+}
+footer button:hover {
+    background: rgb(131, 197, 233);
+    transition: 0.5s;
+    cursor: pointer;
+}
+footer form {
+    display: inline;
+    padding-right: 20px;
+}
+.footer-column
+{
+    margin: 15px 0px;
+}
+.footer-column p
+{
+    position: relative;
+    font-size: 14px;
+}
+footer .auth {
+    position: relative;
+    margin-left: 70%;
+    text-align: right;
+    margin-top: 30px;
+}
+.menu {
+    width:77px; height:77px; border-color: black;
+}
+h1 {
+    font-family: PlayfairDisplayBlack;
+    font-style: normal;
+    text-transform: lowercase;
+    line-height: 120%;
+    font-size: 6.6px;
+    color: #000000;
+}
+h2 { 
+    font-family: BebasNeueBook;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 48px;
+    letter-spacing: 0.2em;
+    position: relative;
+    text-align: right;
+    color: #000000;
+    border-bottom: 4px solid #000000;
+    padding-bottom: 10px;
+    padding-left: 224px;
+    margin-top: 7.916vw;
+    margin-bottom: 8.125vw;
+}
+#goods {
+    margin-bottom: 100px;
+    
+}
+.card {
+    font-family: PlayfairDisplayItalic;
+    font-style: italic;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    background: #F2F2F2;
+    border-radius: 25px;
+    border: none;
+    color: #000000;     
+    
+}
+h4 {
+    font-size: 20px;
+    padding-top: 43px;
+}
+.card img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    border-radius: 25px;
+}
+.line {
+    border: 4px solid #000000;
+}
+
+.news ul {
+    height: 75vw;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 2.7vw;
+    -moz-column-count: 3;
+    -moz-column-gap: 2.7vw;
+    column-count: 3;
+    column-gap: 2.7vw;
+    margin-top: 5.3vw;
+    margin-bottom: -15vw;
+}
+.news ul li {
+    width: 100%;
+    margin-bottom: 2.7vw;
+    overflow: hidden;
+    
+}
+.news ul li a img,
+.news ul li a {
+ width: inherit;
+ z-index: 0;
+}
+.news ul li img:hover {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+    transform: scale(1.02);
+    transition: all 0.2s ease-in;
+}
+
+.news .blog-header {
+    text-align: right;
+    font-size: 6.6vw;
+    width: 100%;
+    position: absolute;
+    top: 985px;
+    right: 54%;
+    z-index: 1; 
+}
+.gallery {
+    margin-left: -2.7px; 
+}
+.card .preview {
+    display: none;
+    opacity: 0;
+}
+.card:hover .preview {
+    transform: translateY(0);
+    opacity: 1;
+    display: inline;
+}
+.card:hover {
+    
+    transform: scale(1.05) translateX(-7px);
+    position: absolute;
+    
+}
+.card button {
+    font-family: RalewayLight;
+    background-color: #f2f2f2;
+    border-width: 0 0 0 0;
+    text-align: center; 
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    width: 40%;
+}
+.card button:hover {
+    font-weight: 900;
+    transition: 0.5s;
+    cursor: pointer;
+}
+[id^='myModal'] .modal-dialog{
+    width: 900px;
+    position: middle;
+    max-width: 100%;
+}
+.modal-header.close {
+    padding: 0px;
+    margin-right:0;
+}
+[id^='myModal'] button.close {
+    margin-left: 830px;
+}
+[id^='myModal'].modal-body {
+    display: block;
+    text-align: justify;
+    position: relative;
+}
+[id^='myModal'].modal-body.photo {
+    position: absolute;
+    width: 0%;
+}
+[id^='myModal'].modal-body.descr {
+    position: relative;
+    width: 50%;
+}
+[id^='myModal'] h3 {
+    font-family: BebasNeueBook;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+[id^='myModal'][id^='myModal'] div.price {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: BebasNeueRegular;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+[id^='myModal'] div.list {
+    font-family: RalewayLight;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 14px;
+}
+[id^='myModal'] select {
+    font-family: RalewayLight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    width: 250px;
+    margin-left: 3px;
+}
+[id^='myModal'] button.closebot {
+    margin-right: 45.5%;
+    font-family: BebasNeueBook;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0.2em;
+    background: white;
+    color: black;
+    padding-left: 10px;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+}
+[id^='myModal'] button.closebot:hover {
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+[id^='myModal'] .showcase ul {
+    display: flex;
+    list-style: none;
+  }
+  
+[id^='myModal'] .showcase li {
+    width: 80px;
+    margin: 20px;
+  }
+[id^='myModal'] .showcase li:hover {
+    opacity: 0.5;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+[id^='myModal'] [class^='fullsize'] {
+    display: block;
+    width: 400px;
+    background: #eee;
+    border: none;
+  }

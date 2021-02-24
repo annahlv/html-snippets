@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'PlayfairDisplayBlack';
+    src: url('../css/fonts/PlayfairDisplayBlack.eot');
+    src: url('../css/fonts/PlayfairDisplayBlack.eot') format('embedded-opentype'),
+         url('../css/fonts/PlayfairDisplayBlack.woff2') format('woff2'),
+         url('../css/fonts/PlayfairDisplayBlack.woff') format('woff'),
+         url('../css/fonts/PlayfairDisplayBlack.ttf') format('truetype'),
+         url('../css/fonts/PlayfairDisplayBlack.svg#PlayfairDisplayBlack') format('svg');
+}
+info
+{display:block;
+text-align:right;
+color: #000;
+padding-top: 140px; 
+margin:10% 20% 10% 50%;
+margin-top:12pt;
+font-size:4em;
+font-family: 'PlayfairDisplayBlack';
+width: 9em;
+}
+name
+{}
+surname
+{}
+middle-name
+{}
+univercity
+{}
+faculty
+{}
+specialization
+{}
+group
+{}
+course
+{}
+bg
+{background: url(../img/bcg.png) no-repeat center center fixed; max-width:100%;}
