@@ -1,0 +1,148 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    position: relative;
+    min-height: 100%;
+}
+#logo 
+{
+    display: block;
+    margin-left: 40px; margin-top: 30px;
+}
+h1 {
+    position: absolute;
+
+    left: 729px;
+    top: 322px;
+    
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 72px;
+    z-index: 10;
+    color: #000000;    
+}
+#num {
+    position: absolute;
+    left: 515px;
+    top: 110px;
+    
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 290.842px;
+    z-index: 1;
+    color: rgba(242, 201, 76, 0.36);
+    animation: appear 0.5s ease-out;
+}
+p {
+    position: absolute;
+    left: 729px;
+    top: 416px;
+    
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 36px;
+    
+    color: #000000;
+        
+}
+button {
+    position: absolute;
+    width: 278px;
+    height: 55px;
+    left: 729px;
+    top: 551px;
+    
+    background: #6FCF97;
+    box-shadow: 15px 15px 70px #71D2F6;
+    border-radius: 50px; 
+    border-style: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;    
+    animation: opac 2s ease-out forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+.art {
+    position: absolute;
+    width: 433px;
+    height: 436px;
+    left: 173px;
+    top: 189px;
+
+}
+@keyframes appear {
+    0% { 
+        transform: translateY(-200%); 
+    }
+    100% { 
+        transform: translateY(0%); 
+    }
+}
+@keyframes opac {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+  
